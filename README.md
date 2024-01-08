@@ -1,4 +1,35 @@
-# Getting Started with Create React App
+# Guided Inquiry - React 
+
+These are the challenge for this week Guided Inquiry.
+
+In the terminal, run npm start - to begin the application. 
+
+The code for Very Easy, Easy, and Medium can be found in basicinfo.js.
+The code for Hard can be found in names.js.
+Both components can be found in App.js.
+
+Feel free to look around. Enjoy!
+
+Exercises/ Challenge
+The exercises below are to be done during and following your viewing of the resources.  Please push your completed project to a repository on Github.  Provide the link to your repo.
+
+Note:  Solutions should use class components. 
+VERY EASY: Inside of your ‘App’ class ‘render’ method, return a div with your basic information for example name, number, date of birth and etc. This div should be hard-coded to prepare for the Medium Challenge.
+
+
+EASY: Create a ‘constructor’ that takes in ‘props’ , call the ‘super()’ method, and set ‘this.state’ to an empty object inside of the ‘App’ class. Inside of ‘this.state’ create a ‘person’ property and set it to an empty object
+
+
+MEDIUM: Replace all of the hard-coded with data from ‘this.state.person’ in the constructor.  Then take the returned ‘div’ and create a component, pass state into it and import it as ‘BasicInfo’. (This challenge should not change the look of the page)
+
+
+HARD: Now that you have a basic react app to display one person’s worth of information, now modify the app to iterate over an array of people’s basic information, while still keeping the new list of contacts in the top-level of state. (Optional: add styling to space out each person’s info)
+
+
+
+
+
+Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
